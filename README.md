@@ -1,0 +1,1 @@
+quick, simple jQuery extension to retrieve or copy all styles (with optional whitelist and blacklist) from an HTML element.
