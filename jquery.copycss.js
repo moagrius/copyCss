@@ -1,5 +1,5 @@
 /*
-Copyright 2013 Mike Dunn
+Copyright 2014 Mike Dunn
 http://upshots.org/
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -114,6 +114,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 	$.fn.copyCSS = function(source, only, except){
 		var styles = $(source).getStyles(only, except);
 		this.css(styles);
+		
+		return this;
 	};
 	
 })(jQuery);
