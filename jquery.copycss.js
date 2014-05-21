@@ -34,9 +34,9 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		var name;
 		
 		// if it's a limited list, no need to run through the entire style object
-		if(only && only instanceof Array){
+		if (only && only instanceof Array) {
 			
-			for(var i = 0, l = only.length; i < l; i++){
+			for (var i = 0, l = only.length; i < l; i++) {
 				// since we have the name already, just return via built-in .css method
 				name = only[i];
 				product[name] = this.css(name);
@@ -98,8 +98,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 		
 		// remove any styles specified...
 		// be careful on blacklist - sometimes vendor-specific values aren't obvious but will be visible...  e.g., excepting 'color' will still let '-webkit-text-fill-color' through, which will in fact color the text
-		if(except && except instanceof Array){
-			for(var i = 0, l = except.length; i < l; i++){
+		if (except && except instanceof Array) {
+			for (var i = 0, l = except.length; i < l; i++) {
 				name = except[i];
 				delete product[name];
 			}
