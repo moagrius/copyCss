@@ -1,0 +1,24 @@
+{
+  "name": "copycss",
+  "version": "0.1.0",
+  "homepage": "https://github.com/moagrius/copycss",
+  "authors": [
+    "Mike Dunn"
+  ],
+  "description": "jQuery extension to retrieve or copy all styles from an HTML element.",
+  "main": "jquery.copycss.js",
+  "keywords": [
+    "jQuery",
+    "css",
+    "style",
+    "copy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
